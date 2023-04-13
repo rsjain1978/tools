@@ -1,0 +1,55 @@
+#loading-spinner {
+    display: none;
+    margin: 2rem auto;
+  }
+  
+  .company-logo, .product-logo {
+    height: 50px;
+  }
+  
+  .company-logo {
+    margin-right: 1rem;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin-top: 2rem;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+  
+  #search-input {
+    text-align: center;
+    height: 3rem;
+    border-radius: 0;
+  }
+  
+  #search-input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  #search-results {
+    height: calc(100vh - 290px);
+    overflow-y: auto;
+  }
+  
+  .result {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        z-index: 1000; /* Ensure the spinner is displayed above other content */
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fund Finder GPT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="d-flex justify-content-between p-4">
+    <img src="/static/company_logo.png" alt="Company Logo" class="company-logo">
+    <img src="/static/product_logo.jpg" alt="Product Logo" class="product-logo">
+  </header>  
+  <div class="container">
+    <h1>Fund Finder GPT</h1>
+    <div id="search-results"></div>
+    <form id="search-form">
+      <div class="form-group fixed-bottom mb-3">
+        <input type="text" autocomplete="off" class="form-control form-control-lg" id="search-input" placeholder="Send a message...">
+      </div>
+    </form>
+    <div class="spinner-container">
+      <div id="loading-spinner" class="spinner-border text-primary" role="status" style="display: none;">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    
+    
+  </div>
+
+  <script src="/static/scripts.js"></script>
+</body>
+</html>
